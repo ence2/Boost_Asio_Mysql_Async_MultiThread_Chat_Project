@@ -1,0 +1,23 @@
+package Msg;
+
+enum MessageId
+{
+	Login = 1;
+	EnterRoom = 2;
+	Chat = 3;
+}
+
+message LoginReq
+{
+	required string id = 1;
+}
+
+message EnterRoomReq
+{
+	optional int32 roomId = 1;
+}
+
+message ChatReq
+{
+	optional string msg = 1;
+}
