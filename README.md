@@ -2,3 +2,4 @@
 - logic thread와 DB thread 구분
 - Thread pool
 - 클라이언트 session 관리
+- room 단위 처리, broadcasting
